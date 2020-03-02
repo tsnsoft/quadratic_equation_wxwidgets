@@ -1,4 +1,4 @@
-# Quadratic_equation_wxwidgets
+# quadratic_equation_wxwidgets
 Пример решения квадратного уравнения на С++ в Code::Blocks с использованием wxWidgets
 
 ![Screenshot](screenshot1.png)
