@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<wxsmith>
+	<object class="wxFrame" name="Quadratic_equation_wxwidgetsFrame">
+		<title>Решение квадратного уравнения</title>
+		<centered>1</centered>
+		<icon>D:\Documents\talipov.s\CPP\Quadratic_equation_wxwidgets\qe.jpg</icon>
+		<size>382,237</size>
+		<style>wxDEFAULT_DIALOG_STYLE</style>
+		<handler function="OnCloseWindow" entry="EVT_CLOSE" />
+		<object class="wxStaticText" name="ID_STATICTEXT1" variable="StaticText1" member="yes">
+			<label>a=</label>
+			<pos>32,40</pos>
+		</object>
+		<object class="wxStaticText" name="ID_STATICTEXT2" variable="StaticText2" member="yes">
+			<label>b=</label>
+			<pos>32,72</pos>
+		</object>
+		<object class="wxStaticText" name="ID_STATICTEXT3" variable="StaticText3" member="yes">
+			<label>c=</label>
+			<pos>32,96</pos>
+		</object>
+		<object class="wxStaticText" name="ID_STATICTEXT4" variable="StaticText4" member="yes">
+			<label>x1=</label>
+			<pos>200,40</pos>
+		</object>
+		<object class="wxStaticText" name="ID_STATICTEXT5" variable="StaticText5" member="yes">
+			<label>x2=</label>
+			<pos>200,64</pos>
+		</object>
+		<object class="wxTextCtrl" name="ID_TEXTCTRL1" variable="TextCtrl_a" member="yes">
+			<value>0</value>
+			<pos>56,32</pos>
+		</object>
+		<object class="wxTextCtrl" name="ID_TEXTCTRL2" variable="TextCtrl_b" member="yes">
+			<value>0</value>
+			<pos>56,64</pos>
+		</object>
+		<object class="wxTextCtrl" name="ID_TEXTCTRL3" variable="TextCtrl_c" member="yes">
+			<value>0</value>
+			<pos>56,96</pos>
+		</object>
+		<object class="wxTextCtrl" name="ID_TEXTCTRL4" variable="TextCtrl_x1" member="yes">
+			<value>0</value>
+			<pos>224,32</pos>
+			<style>wxTE_READONLY</style>
+		</object>
+		<object class="wxTextCtrl" name="ID_TEXTCTRL5" variable="TextCtrl_x2" member="yes">
+			<value>0</value>
+			<pos>224,64</pos>
+			<style>wxTE_READONLY</style>
+		</object>
+		<object class="wxButton" name="ID_BUTTON1" variable="Button_Calc" member="yes">
+			<label>Решить</label>
+			<pos>56,136</pos>
+			<size>280,40</size>
+			<handler function="OnButton_CalcClick" entry="EVT_BUTTON" />
+		</object>
+		<object class="wxStaticBitmap" name="ID_STATICBITMAP1" variable="StaticBitmap1" member="yes">
+			<bitmap>D:\Documents\talipov.s\CPP\Quadratic_equation_wxwidgets\qe.jpg</bitmap>
+			<pos>160,184</pos>
+		</object>
+	</object>
+</wxsmith>
