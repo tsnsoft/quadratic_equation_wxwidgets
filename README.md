@@ -12,8 +12,6 @@
 ![Screenshot](screenshot5.png)
 
 ```
-#include <iostream>
-#include <sstream>
 #include <cmath>
 
 using namespace std;

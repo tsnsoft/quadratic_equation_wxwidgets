@@ -10,8 +10,6 @@
 #include "Quadratic_equation_wxwidgetsMain.h"
 #include <wx/msgdlg.h>
 
-#include <iostream>
-#include <sstream>
 #include <cmath>
 
 using namespace std;
