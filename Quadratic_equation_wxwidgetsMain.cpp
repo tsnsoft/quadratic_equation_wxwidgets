@@ -110,7 +110,6 @@ Quadratic_equation_wxwidgetsFrame::~Quadratic_equation_wxwidgetsFrame()
 void Quadratic_equation_wxwidgetsFrame::OnButton_CalcClick(wxCommandEvent& event)
 {
     try {
-        ostringstream x1_, x2_; x1_.precision(3); x2_.precision(3);
         double a = strtod(TextCtrl_a->GetValue(), NULL);
         double b = strtod(TextCtrl_b->GetValue(), NULL);
         double c = strtod(TextCtrl_c->GetValue(), NULL);
@@ -119,9 +118,8 @@ void Quadratic_equation_wxwidgetsFrame::OnButton_CalcClick(wxCommandEvent& event
         x1 = (-b-sqrt(d))/(2*a);
         x2 = (-b+sqrt(d))/(2*a);
         if (isnan(x1) || isnan(x2) || isinf(x1) || isinf(x2)) { throw logic_error(""); }
-        x1_ << x1; x2_ << x2;
-        TextCtrl_x1->SetValue(x1_.str());
-        TextCtrl_x2->SetValue(x2_.str());
+        TextCtrl_x1->SetValue(wxString::Format(wxT("%.3f"),x1));
+        TextCtrl_x2->SetValue(wxString::Format(wxT("%.3f"),x2));
     } catch (...) {
         TextCtrl_x1->SetValue("???");
         TextCtrl_x2->SetValue("???");
