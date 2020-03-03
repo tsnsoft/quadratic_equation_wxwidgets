@@ -127,9 +127,3 @@ void Quadratic_equation_wxwidgetsFrame::OnButton_CalcClick(wxCommandEvent& event
         TextCtrl_x2->SetValue("???");
     }
 }
-
-// Выход из программы
-void Quadratic_equation_wxwidgetsFrame::OnCloseWindow(wxCloseEvent& event)
-{
-    Close();
-}
