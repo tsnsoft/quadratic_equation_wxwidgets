@@ -1674,11 +1674,9 @@
 
 1572198102 d:\codeblocks\wxwidgets\include\wx\qt\textctrl.h
 
-1583208098 source:d:\documents\talipov.s\cpp\quadratic_equation_wxwidgets\quadratic_equation_wxwidgetsmain.cpp
+1583211093 source:d:\documents\talipov.s\cpp\quadratic_equation_wxwidgets\quadratic_equation_wxwidgetsmain.cpp
 	"Quadratic_equation_wxwidgetsMain.h"
 	<wx/msgdlg.h>
-	<iostream>
-	<sstream>
 	<cmath>
 	<wx/bitmap.h>
 	<wx/icon.h>

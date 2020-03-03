@@ -76,9 +76,9 @@ Quadratic_equation_wxwidgetsFrame::Quadratic_equation_wxwidgetsFrame(wxWindow* p
     Create(parent, id, _("Решение квадратного уравнения"), wxDefaultPosition, wxDefaultSize, wxDEFAULT_DIALOG_STYLE, _T("id"));
     SetClientSize(wxSize(382,237));
     {
-    	wxIcon FrameIcon;
-    	FrameIcon.CopyFromBitmap(wxBitmap(wxImage(_T("D:\\Documents\\talipov.s\\CPP\\Quadratic_equation_wxwidgets\\qe.jpg"))));
-    	SetIcon(FrameIcon);
+        wxIcon FrameIcon;
+        FrameIcon.CopyFromBitmap(wxBitmap(wxImage(_T("D:\\Documents\\talipov.s\\CPP\\Quadratic_equation_wxwidgets\\qe.jpg"))));
+        SetIcon(FrameIcon);
     }
     StaticText1 = new wxStaticText(this, ID_STATICTEXT1, _("a="), wxPoint(32,40), wxDefaultSize, 0, _T("ID_STATICTEXT1"));
     StaticText2 = new wxStaticText(this, ID_STATICTEXT2, _("b="), wxPoint(32,72), wxDefaultSize, 0, _T("ID_STATICTEXT2"));
@@ -105,19 +105,18 @@ Quadratic_equation_wxwidgetsFrame::~Quadratic_equation_wxwidgetsFrame()
 }
 
 // Решение квадратного уравнения
-void Quadratic_equation_wxwidgetsFrame::OnButton_CalcClick(wxCommandEvent& event)
-{
+void Quadratic_equation_wxwidgetsFrame::OnButton_CalcClick(wxCommandEvent& event) {
     try {
-        double a = strtod(TextCtrl_a->GetValue(), NULL);
-        double b = strtod(TextCtrl_b->GetValue(), NULL);
-        double c = strtod(TextCtrl_c->GetValue(), NULL);
-        double d, x1, x2;
+        double a, b, c, d, x1, x2;
+        TextCtrl_a->GetValue().ToDouble(&a);
+        TextCtrl_b->GetValue().ToDouble(&b);
+        TextCtrl_c->GetValue().ToDouble(&c);
         d = b*b - 4*a*c;
         x1 = (-b-sqrt(d))/(2*a);
         x2 = (-b+sqrt(d))/(2*a);
         if (isnan(x1) || isnan(x2) || isinf(x1) || isinf(x2)) { throw logic_error(""); }
-        TextCtrl_x1->SetValue(wxString::Format(wxT("%.3f"),x1));
-        TextCtrl_x2->SetValue(wxString::Format(wxT("%.3f"),x2));
+        TextCtrl_x1->SetValue(wxString::Format("%.3f",x1));
+        TextCtrl_x2->SetValue(wxString::Format("%.3f",x2));
     } catch (...) {
         TextCtrl_x1->SetValue("???");
         TextCtrl_x2->SetValue("???");
