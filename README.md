@@ -40,9 +40,4 @@ void Quadratic_equation_wxwidgetsFrame::OnButton_CalcClick(wxCommandEvent& event
     }
 }
 
-// Выход из программы
-void Quadratic_equation_wxwidgetsFrame::OnCloseWindow(wxCloseEvent& event)
-{
-    Close();
-}
 ```
