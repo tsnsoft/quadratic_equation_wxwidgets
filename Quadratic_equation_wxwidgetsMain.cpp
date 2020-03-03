@@ -95,6 +95,7 @@ Quadratic_equation_wxwidgetsFrame::Quadratic_equation_wxwidgetsFrame(wxWindow* p
     Button_Calc = new wxButton(this, ID_BUTTON1, _("Решить"), wxPoint(56,136), wxSize(280,40), 0, wxDefaultValidator, _T("ID_BUTTON1"));
     StaticBitmap1 = new wxStaticBitmap(this, ID_STATICBITMAP1, wxBitmap(wxImage(_T("D:\\Documents\\talipov.s\\CPP\\Quadratic_equation_wxwidgets\\qe.jpg"))), wxPoint(160,184), wxDefaultSize, 0, _T("ID_STATICBITMAP1"));
     Center();
+
     Connect(ID_BUTTON1,wxEVT_COMMAND_BUTTON_CLICKED,(wxObjectEventFunction)&Quadratic_equation_wxwidgetsFrame::OnButton_CalcClick);
     //*)
 }
