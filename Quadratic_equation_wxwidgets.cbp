@@ -14,10 +14,10 @@
 				<Option projectLinkerOptionsRelation="2" />
 				<Compiler>
 					<Add option="-g" />
-					<Add directory="D:/CODEBLOCKS/wxWidgets/lib/gcc_lib/mswu" />
+					<Add directory="C:/CODEBLOCKS/wxWidgets/lib/gcc_lib/mswu" />
 				</Compiler>
 				<ResourceCompiler>
-					<Add directory="D:/CODEBLOCKS/wxWidgets/lib/gcc_lib/mswu" />
+					<Add directory="C:/CODEBLOCKS/wxWidgets/lib/gcc_lib/mswu" />
 				</ResourceCompiler>
 				<Linker>
 					<Add library="libwxmsw31u_core.a" />
@@ -26,7 +26,8 @@
 					<Add library="libwxjpeg.a" />
 					<Add library="libwxtiff.a" />
 					<Add library="libwxzlib.a" />
-					<Add directory="D:/CODEBLOCKS/wxWidgets/lib/gcc_lib" />
+					<Add library="libwxregexud.a" />
+					<Add directory="C:/CODEBLOCKS/wxWidgets/lib/gcc_lib" />
 				</Linker>
 			</Target>
 			<Target title="Release">
@@ -37,10 +38,10 @@
 				<Option projectLinkerOptionsRelation="2" />
 				<Compiler>
 					<Add option="-O2" />
-					<Add directory="D:/CODEBLOCKS/wxWidgets/lib/gcc_lib/mswu" />
+					<Add directory="C:/CODEBLOCKS/wxWidgets/lib/gcc_lib/mswu" />
 				</Compiler>
 				<ResourceCompiler>
-					<Add directory="D:/CODEBLOCKS/wxWidgets/lib/gcc_lib/mswu" />
+					<Add directory="C:/CODEBLOCKS/wxWidgets/lib/gcc_lib/mswu" />
 				</ResourceCompiler>
 				<Linker>
 					<Add option="-s" />
@@ -50,7 +51,8 @@
 					<Add library="libwxjpeg.a" />
 					<Add library="libwxtiff.a" />
 					<Add library="libwxzlib.a" />
-					<Add directory="D:/CODEBLOCKS/wxWidgets/lib/gcc_lib" />
+					<Add library="libwxregexu.a" />
+					<Add directory="C:/CODEBLOCKS/wxWidgets/lib/gcc_lib" />
 				</Linker>
 			</Target>
 		</Build>
@@ -61,10 +63,10 @@
 			<Add option="-D__WXMSW__" />
 			<Add option="-DwxUSE_UNICODE" />
 			<Add option="-Wall" />
-			<Add directory="D:/CODEBLOCKS/wxWidgets/include" />
+			<Add directory="C:/CODEBLOCKS/wxWidgets/include" />
 		</Compiler>
 		<ResourceCompiler>
-			<Add directory="D:/CODEBLOCKS/wxWidgets/include" />
+			<Add directory="C:/CODEBLOCKS/wxWidgets/include" />
 		</ResourceCompiler>
 		<Linker>
 			<Add option="-mthreads" />

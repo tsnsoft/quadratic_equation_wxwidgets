@@ -3,7 +3,7 @@
 	<object class="wxFrame" name="Quadratic_equation_wxwidgetsFrame">
 		<title>Решение квадратного уравнения</title>
 		<centered>1</centered>
-		<icon>D:\Documents\talipov.s\CPP\Quadratic_equation_wxwidgets\qe.jpg</icon>
+		<icon>C:\Users\talip\Development\CPPProjects\quadratic_equation_wxwidgets-master\qe.jpg</icon>
 		<size>382,237</size>
 		<style>wxDEFAULT_DIALOG_STYLE</style>
 		<handler function="OnCloseWindow" entry="EVT_CLOSE" />
@@ -56,7 +56,7 @@
 			<handler function="OnButton_CalcClick" entry="EVT_BUTTON" />
 		</object>
 		<object class="wxStaticBitmap" name="ID_STATICBITMAP1" variable="StaticBitmap1" member="yes">
-			<bitmap>D:\Documents\talipov.s\CPP\Quadratic_equation_wxwidgets\qe.jpg</bitmap>
+			<bitmap>C:\Users\talip\Development\CPPProjects\quadratic_equation_wxwidgets-master\qe.jpg</bitmap>
 			<pos>160,184</pos>
 		</object>
 	</object>

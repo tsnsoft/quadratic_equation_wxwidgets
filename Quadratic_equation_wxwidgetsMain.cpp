@@ -76,9 +76,9 @@ Quadratic_equation_wxwidgetsFrame::Quadratic_equation_wxwidgetsFrame(wxWindow* p
     Create(parent, id, _("Решение квадратного уравнения"), wxDefaultPosition, wxDefaultSize, wxDEFAULT_DIALOG_STYLE, _T("id"));
     SetClientSize(wxSize(382,237));
     {
-        wxIcon FrameIcon;
-        FrameIcon.CopyFromBitmap(wxBitmap(wxImage(_T("D:\\Documents\\talipov.s\\CPP\\Quadratic_equation_wxwidgets\\qe.jpg"))));
-        SetIcon(FrameIcon);
+    	wxIcon FrameIcon;
+    	FrameIcon.CopyFromBitmap(wxBitmap(wxImage(_T("C:\\Users\\talip\\Development\\CPPProjects\\quadratic_equation_wxwidgets-master\\qe.jpg"))));
+    	SetIcon(FrameIcon);
     }
     StaticText1 = new wxStaticText(this, ID_STATICTEXT1, _("a="), wxPoint(32,40), wxDefaultSize, 0, _T("ID_STATICTEXT1"));
     StaticText2 = new wxStaticText(this, ID_STATICTEXT2, _("b="), wxPoint(32,72), wxDefaultSize, 0, _T("ID_STATICTEXT2"));
@@ -91,7 +91,7 @@ Quadratic_equation_wxwidgetsFrame::Quadratic_equation_wxwidgetsFrame(wxWindow* p
     TextCtrl_x1 = new wxTextCtrl(this, ID_TEXTCTRL4, _("0"), wxPoint(224,32), wxDefaultSize, wxTE_READONLY, wxDefaultValidator, _T("ID_TEXTCTRL4"));
     TextCtrl_x2 = new wxTextCtrl(this, ID_TEXTCTRL5, _("0"), wxPoint(224,64), wxDefaultSize, wxTE_READONLY, wxDefaultValidator, _T("ID_TEXTCTRL5"));
     Button_Calc = new wxButton(this, ID_BUTTON1, _("Решить"), wxPoint(56,136), wxSize(280,40), 0, wxDefaultValidator, _T("ID_BUTTON1"));
-    StaticBitmap1 = new wxStaticBitmap(this, ID_STATICBITMAP1, wxBitmap(wxImage(_T("D:\\Documents\\talipov.s\\CPP\\Quadratic_equation_wxwidgets\\qe.jpg"))), wxPoint(160,184), wxDefaultSize, 0, _T("ID_STATICBITMAP1"));
+    StaticBitmap1 = new wxStaticBitmap(this, ID_STATICBITMAP1, wxBitmap(wxImage(_T("C:\\Users\\talip\\Development\\CPPProjects\\quadratic_equation_wxwidgets-master\\qe.jpg"))), wxPoint(160,184), wxDefaultSize, 0, _T("ID_STATICBITMAP1"));
     Center();
 
     Connect(ID_BUTTON1,wxEVT_COMMAND_BUTTON_CLICKED,(wxObjectEventFunction)&Quadratic_equation_wxwidgetsFrame::OnButton_CalcClick);
