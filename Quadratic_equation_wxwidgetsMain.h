@@ -28,14 +28,7 @@ class Quadratic_equation_wxwidgetsFrame: public wxFrame
     private:
 
         //(*Handlers(Quadratic_equation_wxwidgetsFrame)
-        void OnQuit(wxCommandEvent& event);
-        void OnAbout(wxCommandEvent& event);
         void OnButton_CalcClick(wxCommandEvent& event);
-        void OnClose(wxCloseEvent& event);
-        void OnQ(wxCloseEvent& event);
-        void OnExit(wxCloseEvent& event);
-        void OnClose1(wxCloseEvent& event);
-        void OnCloseWindow(wxCloseEvent& event);
         //*)
 
         //(*Identifiers(Quadratic_equation_wxwidgetsFrame)
