@@ -19,6 +19,7 @@ IMPLEMENT_APP(Quadratic_equation_wxwidgetsApp);
 bool Quadratic_equation_wxwidgetsApp::OnInit()
 {
     //(*AppInitialize
+
     bool wxsOK = true;
     wxInitAllImageHandlers();
     if ( wxsOK )

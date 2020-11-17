@@ -3608,3 +3608,31 @@
 
 1595438406 c:\codeblocks\wxwidgets\include\wx\msw\rcdefs.h
 
+1605634783 source:c:\quadratic_equation_wxwidgets-master\quadratic_equation_wxwidgetsapp.cpp
+	"Quadratic_equation_wxwidgetsApp.h"
+	"Quadratic_equation_wxwidgetsMain.h"
+	<wx/image.h>
+
+1604471409 c:\quadratic_equation_wxwidgets-master\quadratic_equation_wxwidgetsapp.h
+	<wx/app.h>
+
+1604471409 c:\quadratic_equation_wxwidgets-master\quadratic_equation_wxwidgetsmain.h
+	<wx/button.h>
+	<wx/frame.h>
+	<wx/statbmp.h>
+	<wx/stattext.h>
+	<wx/textctrl.h>
+
+1605634768 source:c:\quadratic_equation_wxwidgets-master\quadratic_equation_wxwidgetsmain.cpp
+	"Quadratic_equation_wxwidgetsMain.h"
+	<wx/msgdlg.h>
+	<cmath>
+	<wx/bitmap.h>
+	<wx/icon.h>
+	<wx/image.h>
+	<wx/intl.h>
+	<wx/string.h>
+
+1604471409 source:c:\quadratic_equation_wxwidgets-master\resource.rc
+	"wx/msw/wx.rc"
+
