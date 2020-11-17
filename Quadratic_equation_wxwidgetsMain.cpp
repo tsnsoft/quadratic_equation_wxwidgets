@@ -105,7 +105,7 @@ Quadratic_equation_wxwidgetsFrame::~Quadratic_equation_wxwidgetsFrame()
     //*)
 }
 
-// ??????? ??????????? ?????????
+// Решение квадратного уравнения
 void Quadratic_equation_wxwidgetsFrame::OnButton_CalcClick(wxCommandEvent& event) {
     try {
         double a, b, c, d, x1, x2;
